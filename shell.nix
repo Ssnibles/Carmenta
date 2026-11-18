@@ -48,7 +48,7 @@ pkgs.mkShell {
 
     build() {
       cargo build --release --manifest-path "${projectRoot}/Cargo.toml" "$@" &&
-        printf 'binary: %s\n' "${projectRoot}/target/release/typst-math"
+        printf 'binary: %s\n' "${projectRoot}/target/release/carmenta"
     }
 
     export -f run build

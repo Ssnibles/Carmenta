@@ -20,9 +20,10 @@ fn main() {
                 ))),
                 window_min_size: Some(size(px(640.), px(420.))),
                 titlebar: Some(TitlebarOptions {
-                    title: Some("typst-math".into()),
+                    title: Some("Carmenta".into()),
                     ..Default::default()
                 }),
+                app_id: Some("carmenta".into()),
                 ..Default::default()
             };
 

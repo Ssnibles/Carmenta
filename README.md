@@ -1,7 +1,9 @@
-# typst-math
+# Carmenta
 
 A native desktop app for writing Typst maths and seeing it typeset. Source on
 the left, the rendered formula on the right, updated as you type.
+
+Named after the Roman goddess credited with inventing the Latin alphabet.
 
 Built with [GPUI Kit](https://gpui-kit.com) on top of GPUI. There is no webview
 and no JavaScript. Typst runs as a child process and its SVG is decoded

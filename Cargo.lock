@@ -743,6 +743,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "carmenta"
+version = "0.1.0"
+dependencies = [
+ "gpui-kit",
+]
+
+[[package]]
 name = "cbc"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6575,13 +6582,6 @@ name = "typenum"
 version = "1.20.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20"
-
-[[package]]
-name = "typst-math"
-version = "0.1.0"
-dependencies = [
- "gpui-kit",
-]
 
 [[package]]
 name = "uds_windows"

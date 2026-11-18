@@ -136,7 +136,7 @@ impl Render for AppView {
                         div()
                             .text_sm()
                             .text_color(theme.muted_foreground)
-                            .child("typst-math"),
+                            .child("Carmenta"),
                     ),
             )
             .child(

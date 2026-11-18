@@ -75,7 +75,7 @@ impl MarkdownPlugin for MathPlugin {
     }
 
     fn name(&self) -> &str {
-        "typst-math"
+        "carmenta-math"
     }
 
     fn parse(
@@ -87,7 +87,7 @@ impl MarkdownPlugin for MathPlugin {
             return None;
         };
         let key = body(&math.value).to_string();
-        Some(MarkdownNode::new("typst-math", key.clone()).text(key))
+        Some(MarkdownNode::new("carmenta-math", key.clone()).text(key))
     }
 
     fn render(&self, node: &MarkdownNode, _window: &mut Window, cx: &mut App) -> impl IntoElement {
