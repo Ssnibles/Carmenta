@@ -1,0 +1,18 @@
+[package]
+name = "typst-math"
+version = "0.1.0"
+edition = "2024"
+description = "Live Typst maths preview"
+
+[dependencies]
+gpui-kit = "=0.10.0"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+lto = true
+strip = true
